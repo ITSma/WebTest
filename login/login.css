@@ -1,0 +1,65 @@
+body{
+    background-image: url(illusion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+#login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+    /* background-color: #gray; */
+    background: #00000060;
+    margin: 200px auto;
+
+}
+
+#login-box h1{
+    color: #ffffff;
+}
+
+#login-box .login-form{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin: 10px auto;
+    height: 10px;
+    width: auto;
+}
+
+#login-box .username-item input{
+    height: 35px;
+    width: 250px;
+    margin: 5px 5px;
+    border: 0;
+    border-bottom: 4px solid #ffffff;
+    padding: 2px 2px;
+    background: #00000000;
+    font-size: 20px;
+}
+
+#login-box .password-item input{
+    height: 35px;
+    width: 250px;
+    margin: 5px 5px;
+    border: 0;
+    border-bottom: 4px solid #ffffff;
+    padding: 2px 2px;
+    background: #ffffff00;
+    font-size: 20px;
+    
+}
+
+.login-button{
+    color: #000000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: purple;
+    margin-top: 110px;
+    font-size: 15px;
+
+}
+
