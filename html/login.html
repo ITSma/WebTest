@@ -9,15 +9,17 @@
 <body>
     <div id="login-box">
         <h1>Illusion</h1>
-        <div class="login-form">
+        <form class="login-form" action="/cgibin/login.cgi" method="POST">
             <div class="username-item">
-                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Username" name="username">
             </div>
             <div class="password-item">
-                <input type="text" placeholder="Password">
+                <input type="text" placeholder="Password" name="password">
             </div>
-        </div>
-        <button class="login-button">login</button>
+            <!-- <button class="login-button">login</button> -->
+            <input type="submit" value="login">
+        </form>>
+        
     </div>
     
 </body>
